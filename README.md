@@ -1,6 +1,7 @@
 # spammer
 Spam those bootlickers out of existence! but what?
 Fake Information provided by [Fake Name Generator](https://www.fakenamegenerator.com "Fake Name Generator")
+Based on biteback, used successfully to counter a threat to transgender people by the Missouri AGO
 
 ## Instructions
 
