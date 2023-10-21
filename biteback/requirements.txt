@@ -1,6 +1,0 @@
-threading
-zipfile
-requests
-random
-os
-csv
