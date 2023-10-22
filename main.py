@@ -56,8 +56,8 @@ def make_request():
 
         ### Setup your Request Here. ###
 
-        url = 'https://ago.mo.gov/file-a-complaint/transgender-center-concerns'
-        data = {'Textbox-1':person.firstName,'Textbox-2':person.lastName,'Textbox-3':person.address,'Textbox-4':person.city,'Textbox-5':person.postal,'Textbox-6':person.email,'Textbox-7':person.telephone,'Textarea-1':person.username}
+        url = 'https://canarymission.org/contact_us'
+        data = {'msg':"method",'method':"/contact_us/insert",'params':'[{"email":'+person.email+'","contactType":"Submit a Name","message":"'+person.firstName+" "+person.lastName+'- '+person.username+' on twitter and '+person.username+'1998 on insta. very anti israel and advocating for the killing of israeli children. Is a '+person.occupation+'"}]','id':"1",'randomSeed':id_generator(20, "abcdefghijklmnopqrstuvwxyz1234567890")}
 
         ################################
 
